@@ -8,7 +8,7 @@ public class IQRange {
 	//iqr = range of a through b
 	
 	public static int getIQRange(int[] arr) {
-		//anything that calls sort needs to use a temp array
+		//anything that calls sort needs to use a temp array so we don't reorder our actual data
 		int[] arr2 = Arrays.copyOf(arr, arr.length);
 		Sort.sortArray(arr2);
 		
