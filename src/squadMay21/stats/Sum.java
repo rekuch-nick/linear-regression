@@ -18,7 +18,6 @@ public class Sum {
 		return sum;
 	}
 	
-	// xArr & yArr must be equal length
 	public static int getTimesSum(int[] xArr, int[] yArr) {
 		int sum = 0;
 		for(int i=0; i<xArr.length; i++) {
